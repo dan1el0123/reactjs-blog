@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "1st post",
+      "datetime": "August 20, 2022 11:47:39 AM",
+      "body": "Lorem ipsum dolor sit amet, consectecur adipiscing elit, sed do elusmod temproraro"
+    },
+    {
+      "id": 2,
+      "title": "Second post",
+      "datetime": "August 20, 2022 11:54:39 AM",
+      "body": "Test blog post description, lorem ipsum third"
+    }
+  ]
+}

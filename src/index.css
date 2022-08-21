@@ -146,6 +146,43 @@ body {
 .NewPost p {
   margin-top: 1rem;
 }
+
+.post {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.Home .post a {
+  text-decoration: none;
+}
+
+.Home .post a,
+.Home .post a:visited {
+  color: #000;
+}
+
+.post:first-child {
+  margin-top: 0;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.postDate {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.postBody {
+  margin: 1rem 0;
+}
+
+.statusMsg {
+  margin-top: 2rem;
+}
+
 /* Media queries */
 
 @media only screen and (min-width: 610px) {

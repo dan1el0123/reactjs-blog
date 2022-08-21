@@ -11,11 +11,11 @@ const useAxiosFetch = (dataUrl) => {
     const fetchData = async (url) => {
       setIsLoading(true);
       try {
-        const response = axios.get(url, {
+        const response = await axios.get(url, {
           signal: controller.signal,
         });
         setData(response.data);
-        setFetchError("");
+        setFetchError(null);
       } catch (err) {
         setFetchError(err.message);
         setData([]);
