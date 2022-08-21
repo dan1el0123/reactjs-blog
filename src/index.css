@@ -129,6 +129,25 @@ body {
 
 /* === Nav style === */
 
+.Home,
+.NewPost,
+.PostPage,
+.About,
+.Missing {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.Missing p,
+.PostPage p,
+.NewPost p {
+  margin-top: 1rem;
+}
+/* Media queries */
+
 @media only screen and (min-width: 610px) {
   html {
     font-size: 22px;
